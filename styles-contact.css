@@ -1,0 +1,227 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/speaker_bg.jpg");
+  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(0, 051, 097);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(131, 149, 186);
+    color: rgb(245, 238, 106);
+  }
+
+  .navbar_image{
+    width: 60px;
+    height: 40px;
+    border-radius: 10%;
+    overflow: hidden;
+    margin-top: -25px;
+  }
+
+
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(0, 051, 097, .75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px solid rgb(131, 149, 186);
+}
+   
+.center_ver2{
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+    background: rgb(131, 149, 186, .75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px solid rgb(131, 149, 186);
+    
+}
+
+#logo {
+    margin-bottom: 16px;
+	border: 3px none rgb(255, 255, 255);
+	text-align: center;
+}
+
+h1 {
+    font-family: commuters-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	font-family: columbia-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+h3 {
+	font-family: columbia-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+	font-size: 2.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+    border-bottom: 5px solid white;
+}
+
+h4 {
+	font-family: columbia-titling, serif;
+    font-weight: 500;
+    font-style: normal;
+	font-size: 2.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+    border-bottom: 5px solid black;
+}
+
+p {
+	font-family: commuters-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.hr3{
+    color: rgb(0, 0, 0);
+} 
+
+
+
+nav{
+    font-family: cronos-pro-caption, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 1.2em;
+    width: 600px; /* This is the width of the nav element */
+    margin: 0 auto; /* This centers the entire nav element inside
+    the center div */
+    border: dashed rgb(255, 255, 255);
+    border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+    text-align: center;
+    margin-top: 2em; /* This adds a bit of space above the nav element */
+}
+nav li{
+    display: inline; /* This allows the block level elements to display next to one another */
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px; /* This adds space around each of the links */
+}
+
+a{
+    color: white;
+    text-decoration: none; /* This removes the underline */
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(245, 238, 106);
+    background: rgb(131, 149, 186); /* This is the pink hover effect -- you’ll want to
+    change this! */
+}
+    
+    
+
